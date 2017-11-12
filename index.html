@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head> 
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>excl</title>
+	<style>
+		table,td{
+			border: 1px solid black;
+			border-collapse:collapse; 
+			border-spacing:0; 
+			text-align: center; 
+			word-wrap:break-word;
+			width: 100%;
+			table-layout: fixed;/* 单元格宽度高度自适应 */
+		}
+		#msg{
+			color: red;
+			font-size: 20px;
+		}
+	</style>
+	<script src="index.js" ></script>
+</head>
+<body>
+	<div id="tb"></div>
+	<div>
+		结束行号：<input type="text" name="row" id="row"/>
+		结束列号：<input type="text" name="col" id="col"/>
+		<button onclick="star();">重新生成表格</button>
+	</div>
+	<div id="msg"></div>
+</body>
+</html>
